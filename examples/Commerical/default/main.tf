@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 module "mod_diagnostic_settings" {
-  #source  = "azurenoops/overlays-diagnostic-settings/azurerm"
+  #source  = "github.com/POps-Rox/tf-az-overlays-diagnosticsettings"
   #version = "x.x.x"
   source = "../../.."
 
