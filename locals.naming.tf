@@ -3,5 +3,5 @@ locals {
   name_prefix = lower(var.name_prefix)
   name_suffix = lower(var.name_suffix)
 
-  diag_name = coalesce(var.custom_diagnostic_setting_name, var.use_naming ? data.popsrox_utils_resource_name.diagnostic_setting.result : data.popsrox_utils_resource_name.diagnostic_setting.name)
+  diag_name = coalesce(var.custom_diagnostic_setting_name, var.use_naming ? data.popsrox_resource_name.diagnostic_setting.result : data.popsrox_resource_name.diagnostic_setting.name)
 }
