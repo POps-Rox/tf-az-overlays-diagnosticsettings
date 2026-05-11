@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 module "mod_diagnostic_settings" {
-  #source  = "github.com/POps-Rox/tf-az-overlays-diagnosticsettings"
+  #source  = "github.com/POps-Rox/terraform-az-overlays-diagnosticsettings"
   #version = "x.x.x"
   source = "../../.."
 
